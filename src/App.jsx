@@ -22,6 +22,18 @@ export default function App() {
             These are some of the projects I've worked on, ranging from web
             applications to game development.
           </p>
+          <article className="project-card">
+            <h3>Movie Night</h3>
+            <p>
+              Movie Night is a full-stack web application where users can discover movies,
+              create and manage personal watchlists, and plan movie nights. The
+              app integrates with the TMDB API to provide movie information,
+              posters, and search functionality.
+            </p>
+            <p>
+              React, JavaScript, Node.js, Express, PostgreSQL
+            </p>
+          </article>
         </section>
 
         <section id="about">
@@ -54,10 +66,7 @@ export default function App() {
 
         <section id="contact">
           <h2>Contact</h2>
-          <p>
-            You can reach me via email at jerichomc255@gmail.com or through my
-            social media profiles.
-          </p>
+          <p>You can reach me via email at jerichomc255@gmail.com</p>
         </section>
       </main>
     </>
